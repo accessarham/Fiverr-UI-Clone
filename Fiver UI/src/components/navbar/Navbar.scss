@@ -1,0 +1,28 @@
+.fiverr-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .fiverr-container {
+        width: 1440px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0px;
+
+        .fiverr-navbar-logo {
+            height: 50px;
+            width: 89px;
+
+           .fiverr-logo img {
+                height: 100%;
+                width: 100%;
+           }
+           .fiverr-dot {
+
+           }
+        }
+
+        .fiverr-navbar-links {}
+    }
+}
