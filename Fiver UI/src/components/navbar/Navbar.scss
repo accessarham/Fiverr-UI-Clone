@@ -2,6 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #013914;
+    color: #fff;
 
     .fiverr-container {
         width: 1440px;
@@ -11,18 +13,28 @@
         padding: 20px 0px;
 
         .fiverr-navbar-logo {
-            height: 50px;
-            width: 89px;
+            font-size: 34px;
+            font-weight: bold;
 
-           .fiverr-logo img {
-                height: 100%;
-                width: 100%;
-           }
-           .fiverr-dot {
-
-           }
+            .fiverr-dot {
+                color: #1dbf73;
+            }
         }
 
-        .fiverr-navbar-links {}
+        .fiverr-navbar-links {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 500;
+
+            button {
+                background-color: transparent;
+                color: #fff;
+                padding: 10px 20px;
+                border-radius: 5px;
+                border: 2px solid #fff;
+            }
+        }
     }
 }
