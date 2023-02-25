@@ -36,6 +36,37 @@
             font-family: "Montserrat", sans-serif;
             font-weight: 500;
 
+            .user {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                cursor: pointer;
+                position: relative;
+
+                img {
+                    width: 32px;
+                    height: 32px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+
+                .options {
+                    position: absolute;
+                    top: 40px;
+                    right: 0;
+                    padding: 15px;
+                    background-color: #fff;
+                    border-radius: 10px;
+                    border: 1px solid rgb(221, 220, 220);
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+                    color: #888;
+                    width: 150px;
+                    font-weight: 300;
+                }
+            }
+
             button {
                 background-color: transparent;
                 color: #fff;
@@ -46,6 +77,12 @@
                 &.active {
                     border-color: #1dbf73;
                     color: #1dbf73;
+                }
+
+                &:hover {
+                    background-color: #1dbf73;
+                    color: #fff;
+                    border-color: #1dbf73;
                 }
             }
         }
