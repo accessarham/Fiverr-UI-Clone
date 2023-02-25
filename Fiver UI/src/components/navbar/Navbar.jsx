@@ -46,13 +46,13 @@ function Navbar() {
 
             {
                 active &&
-                <div className='fiverr-navbar-transition'>
+                <>
                     <div className='fiverr-navbar-hr'></div>
                     <div className='fiverr-menu'>
                         <div>Test</div>
                         <div>Test</div>
                     </div>
-                </div>
+                </>
             }
         </div>
     );
