@@ -1,0 +1,29 @@
+.fiverr-categorycard {
+    width: 252px;
+    height: 344px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .fiverr-categorycard-desc {
+        position: absolute;
+        font-weight: 300;
+        top: 15px;
+        left: 15px;
+    }
+
+    .fiverr-categorycard-title {
+        position: absolute;
+        top: 40px;
+        left: 15px;
+        font-weight: 500;
+        font-size: 24px;
+    }
+}
