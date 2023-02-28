@@ -1,14 +1,14 @@
 import React from 'react';
-import Featured from '../../components/featured/Featured';
-import Slide from '../../components/slide/Slide';
-import TrustedBy from '../../components/trustedBy/TrustedBy';
+import Featured from '../../components/homepage/featured/Featured';
+import Slide from '../../components/homepage/slide/Slide';
+import TrustedBy from '../../components/homepage/trustedBy/TrustedBy';
 import './homepage.scss';
-import CategoryCard from '../../components/categoryCard/CategoryCard';
+import CategoryCard from '../../components/homepage/categoryCard/CategoryCard';
 import { cards } from '../../data';
-import FeaturedVideo from '../../components/featuredVideo/FeaturedVideo';
-import FiverrBusiness from '../../components/fiverrBusiness/FiverrBusiness';
+import FeaturedVideo from '../../components/homepage/featuredVideo/FeaturedVideo';
+import FiverrBusiness from '../../components/homepage/fiverrBusiness/FiverrBusiness';
 import { projects } from '../../data';
-import ProjectCard from '../../components/projectCard/ProjectCard';
+import ProjectCard from '../../components/homepage/projectCard/ProjectCard';
 
 const homepage = () => {
 
