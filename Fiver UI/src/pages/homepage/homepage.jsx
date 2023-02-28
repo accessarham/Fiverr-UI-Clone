@@ -5,6 +5,8 @@ import TrustedBy from '../../components/trustedBy/TrustedBy';
 import './homepage.scss';
 import CategoryCard from '../../components/categoryCard/CategoryCard';
 import { cards } from '../../data';
+import FeaturedVideo from '../../components/featuredVideo/FeaturedVideo';
+import FiverrBusiness from '../../components/fiverrBusiness/FiverrBusiness';
 
 const homepage = () => {
   return (
@@ -16,6 +18,8 @@ const homepage = () => {
           <CategoryCard item={card} key={card.id} />
         ))}
       </Slide>
+      <FeaturedVideo />
+      <FiverrBusiness />
     </div>
   )
 }
