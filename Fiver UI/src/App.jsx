@@ -3,7 +3,7 @@ import Navbar from './components/homepage/navbar/Navbar';
 import Footer from './components/homepage/footer/Footer';
 import Home from './pages/homepage/homepage';
 import AddNewGig from './pages/addGigs/addGig';
-import Gig from './pages/gig/gig';
+import Gig from './pages/gig/Gig';
 import Gigs from './pages/gigs/Gigs';
 import MyGigs from './pages/myGigs/myGigs';
 import Orders from './pages/orders/orders';
