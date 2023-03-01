@@ -4,6 +4,7 @@ import Footer from './components/homepage/footer/Footer';
 import Home from './pages/homepage/homepage';
 import AddNewGig from './pages/addGigs/addGig';
 import Gig from './pages/gig/gig';
+import Gigs from './pages/gigs/Gigs';
 import MyGigs from './pages/myGigs/myGigs';
 import Orders from './pages/orders/orders';
 import Message from './pages/message/message';
@@ -38,7 +39,7 @@ function App() {
         },
         {
           path: '/gigs',
-          element: <MyGigs />,
+          element: <Gigs />,
         },
         {
           path: '/gig/:id',

@@ -4,7 +4,6 @@ import './myGigs.scss';
 function myGigs() {
   return (
     <div>
-      myGigs
     </div>
   )
 }
