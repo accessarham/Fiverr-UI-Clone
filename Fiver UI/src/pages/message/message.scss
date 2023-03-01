@@ -1,0 +1,103 @@
+.message {
+    display: flex;
+    justify-content: center;
+
+    .message-container {
+        width: 1200px;
+        margin: 50px;
+
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: gray;
+            border-radius: 10px;
+        }
+
+        .message-breadcrumb {
+            font-weight: 300;
+            font-size: 13px;
+            color: #555;
+        }
+
+        .message-messages {
+            margin: 30px 0;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            height: 500px;
+            overflow-y: auto;
+
+            .message-item {
+                display: flex;
+                align-items: start;
+                gap: 15px;
+                max-width: 600px;
+                font-size: 18px;
+
+                &.message-owner {
+                    flex-direction: row-reverse;
+                    align-self: flex-end;
+
+                    p {
+                        border-radius: 20px 0 20px 20px;
+                        background-color: royalblue;
+                        color: #fff;
+                    }
+                }
+
+                img {
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+
+                p {
+                    padding: 20px;
+                    background-color: rgb(228, 228, 228);
+                    border-radius: 0px 20px 20px 20px;
+                }
+            }
+        }
+
+        hr {
+            height: 0;
+            border: 0.5px solid rgb(235, 235, 235);
+            margin-bottom: 20px;
+        }
+
+        .message-write {
+            display: flex;
+            align-items: start;
+            justify-content: space-between;
+
+            textarea {
+                width: 80%;
+                padding: 10px;
+                height: 30px;
+                border: 1px solid lightgray;
+                border-radius: 10px;
+                padding: 20px;
+                font-size: 15px;
+
+                &::placeholder {
+                    font-size: 15px;
+                }
+            }
+
+            button {
+                background-color: #1dbf73;
+                padding: 15px 60px;
+                color: #fff;
+                font-weight: 500;
+                font-size: 15px;
+                border: none;
+                border-radius: 10px;
+                cursor: pointer;
+            }
+        }
+    }
+}

@@ -1,14 +1,14 @@
 import React from 'react';
 import Navbar from './components/homepage/navbar/Navbar';
 import Footer from './components/homepage/footer/Footer';
-import Home from './pages/homepage/homepage';
-import AddNewGig from './pages/addGigs/addGig';
+import Home from './pages/homepage/Homepage';
+import AddNewGig from './pages/addGigs/AddGig';
 import Gig from './pages/gig/Gig';
 import Gigs from './pages/gigs/Gigs';
 import MyGigs from './pages/myGigs/MyGigs';
-import Orders from './pages/orders/orders';
-import Message from './pages/message/message';
-import Messages from './pages/messages/messages';
+import Orders from './pages/orders/Orders';
+import Message from './pages/message/Message';
+import Messages from './pages/messages/Messages';
 import {
   createBrowserRouter,
   RouterProvider,

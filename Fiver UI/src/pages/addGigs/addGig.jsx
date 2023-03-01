@@ -1,5 +1,5 @@
 import React from 'react';
-import './addGig.scss'; 
+import './AddGig.scss'; 
 
 function addGig() {
   return (
