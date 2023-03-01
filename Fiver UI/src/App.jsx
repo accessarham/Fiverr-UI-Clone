@@ -54,7 +54,7 @@ function App() {
           element: <MyGigs />,
         },
         {
-          path: '/addnewgig',
+          path: '/addGig',
           element: <AddNewGig />,
         },
         {
