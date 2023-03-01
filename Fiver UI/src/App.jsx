@@ -5,7 +5,7 @@ import Home from './pages/homepage/homepage';
 import AddNewGig from './pages/addGigs/addGig';
 import Gig from './pages/gig/Gig';
 import Gigs from './pages/gigs/Gigs';
-import MyGigs from './pages/myGigs/myGigs';
+import MyGigs from './pages/myGigs/MyGigs';
 import Orders from './pages/orders/orders';
 import Message from './pages/message/message';
 import Messages from './pages/messages/messages';

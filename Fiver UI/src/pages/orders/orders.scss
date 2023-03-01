@@ -1,0 +1,41 @@
+.orders {
+    display: flex;
+    justify-content: center;
+
+    .orders-container {
+        width: 1400px;
+        padding: 50px 0px;
+
+        table {
+            margin-top: 30px;
+            width: 100%;
+
+            tr {
+                height: 50px;
+
+                th {
+                    text-align: center;
+                }
+
+                td {
+                    text-align: center;
+
+                    .orders-img {
+                        width: 50px;
+                        height: 25px;
+                        object-fit: cover;
+                    }
+
+                    .orders-delete {
+                        width: 20px;
+                        cursor: pointer;
+                    }
+                }
+
+                &:nth-child(even) {
+                    background-color: rgb(247, 247, 247);
+                }
+            }
+        }
+    }
+}
