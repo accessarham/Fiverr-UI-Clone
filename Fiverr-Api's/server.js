@@ -1,6 +1,7 @@
 import express from "express";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
+import authRoute from "./routes/auth.route.js";
 import conversationRoute from "./routes/conversation.route.js";
 import gigRoute from "./routes/gig.route.js";
 import messageRoute from "./routes/message.route.js";
@@ -21,6 +22,9 @@ const connect = async () => {
     }
 }
 
+app.use(express.json());
+
+app.use('/api/auth', authRoute);
 app.use('/api/conversations', conversationRoute);
 app.use('/api/gigs', gigRoute);
 app.use('/api/messages', messageRoute);
